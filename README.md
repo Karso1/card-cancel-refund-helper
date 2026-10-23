@@ -14,6 +14,8 @@ Processes refunds in the card cancellation list while preserving default amounts
 
 更详细的操作、版本变更及限制见 [使用说明.txt](使用说明.txt)。
 
+项目中已有的 `tests/` 为基于 Node.js 的本地模拟检查，可按需运行 `node tests/<文件名>`。
+
 ### 知识点
 
 Chrome Manifest V3、金额解析与稳定性检查、分页、错误恢复和审计日志。
@@ -31,6 +33,8 @@ Chrome Manifest V3、金额解析与稳定性检查、分页、错误恢复和�
 3. Export the log and review skipped records and uncertain outcomes.
 
 See [使用说明.txt](使用说明.txt) for detailed behavior, version history, and limitations.
+
+The existing `tests/` directory contains local Node.js simulations; run individual files with `node tests/<filename>`.
 
 ### Concepts
 
